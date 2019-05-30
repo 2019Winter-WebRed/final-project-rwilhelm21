@@ -1,0 +1,93 @@
+/* Name: Ruth Wilhelm
+*  Date: May 22, 2019 
+*  Final Project: Innovative Women (Ada Lovelace) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { /* These are the general settings for my page. It has a light gray background, thin solid black margins/borders, is centered, and has a monospace font.*/
+    width: 90%;
+    background-color: lightgray;
+    margin-left: 10px solid black;
+    border: 10px solid black;
+    justify-content: center; 
+    margin: auto; 
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+h1, h3 { /* These are my titles, my h1 (the title of my page) and h3s (the titles of each section). They are centered. */ 
+    text-align: center; 
+    padding: 10px; 
+}
+
+
+h3 { /* The h3s are the titles of each section. They are underlined navy. */ 
+    text-decoration: underline navy; 
+}
+
+ul, li { /* This makes sure that my lists are formatted inside the sections and are not smushed. */ 
+    list-style-position: inside; 
+    padding-left: 10px; 
+}
+
+p { /* My paragraphs are indented and have a little bit of padding so they are easier to read. */ 
+    padding: 10px; 
+    text-indent: 10px; 
+}
+
+img { /* The images are on the smaller side with a thin, dashed navy border. */ 
+    width: 100px; 
+    border: dashed navy 5px; 
+}
+
+#quotes { /* The quotes are a little larger so they can be read. */ 
+    width: 200px; 
+    margin-bottom: 20px;  
+}
+
+#quote3 { /* The th*/ 
+    width: 200px; 
+}
+
+a {
+    text-decoration: underline darkgrey; 
+    color: azure; 
+}
+
+a:hover, a:focus {
+    color: yellow; 
+}
+
+header { /* The header has a thin, solid yellow bottom border to seperate it from the other sections. */ 
+    border-bottom: 2px solid yellow;
+}
+
+section { /* This allowed me to center the pictures and quotes. */ 
+    text-align: center; 
+}
+
+#sidebarA { /* This is the left side bar, which is the smallest. It included all of Ada's quotes. */ 
+    width: 20%;
+    float: left;
+}
+
+main { /* My main section includes all of my research so it takes up the majority of my page. It has thin, solid yellow borders. */ 
+    border-left: 2px solid yellow; 
+    border-right: 2px solid yellow; 
+    width: 47%;
+    float: left; 
+}
+
+#sidebarB { /* This is the right side bar. It is larger than the left one because it includes all of Ada's accomplishments. */ 
+    width: 30%;
+    float: right; 
+    margin-right: 15px; 
+}
+
+footer { /* The footer also has a thin, solid yellow top border. It includes my sources and the "reproduced for eductional purposes only" statement. */ 
+    clear: both;
+    border-top: 2px solid yellow;
+}
